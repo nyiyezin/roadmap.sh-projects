@@ -7,13 +7,13 @@ Solution for the [github-user-activity](https://roadmap.sh/projects/github-user-
 Clone the repository and run the following command:
 
 ```bash
-git clone https://github.com/kamranahmedse/github-user-activity.git
-cd github-user-activity
+git clone https://github.com/nyiyezin/roadmap.sh-projects
+cd backend/github-user-activity
 ```
 
 Run the following command to list the activities of a user:
 
 ```bash
 # node index.js <username>
-node index.js kamranahmedse
+node index.js nyiyezin
 ```
