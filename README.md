@@ -5,3 +5,4 @@ This repository is dedicated to practicing and completing projects based on the 
 ## Finished Projects
 
 - [GitHub User Activity](https://roadmap.sh/projects/github-user-activity)
+- [Task Tracker](https://roadmap.sh/projects/task-tracker)
