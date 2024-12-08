@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <h1>Temperature Converter</h1>
+    <form method="POST">
+      <input type="number" name="value" placeholder="Enter value" required />
+      <select name="from">
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+        <option value="K">Kelvin</option>
+      </select>
+      to
+      <select name="to">
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+        <option value="K">Kelvin</option>
+      </select>
+      <button type="submit">Convert</button>
+    </form>
+    <% if (result !== null) { %>
+    <h2>Result: <%= result %></h2>
+    <% } %>
+    <a href="/">Back to Home</a>
+  </body>
+</html>

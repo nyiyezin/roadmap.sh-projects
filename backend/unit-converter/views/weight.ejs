@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weight Converter</title>
+  </head>
+  <body>
+    <h1>Weight Converter</h1>
+    <form method="POST">
+      <input type="number" name="value" placeholder="Enter value" required />
+      <select name="from">
+        <option value="mg">Milligram</option>
+        <option value="g">Gram</option>
+        <option value="kg">Kilogram</option>
+        <option value="ounce">Ounce</option>
+        <option value="pound">Pound</option>
+      </select>
+      to
+      <select name="to">
+        <option value="mg">Milligram</option>
+        <option value="g">Gram</option>
+        <option value="kg">Kilogram</option>
+        <option value="ounce">Ounce</option>
+        <option value="pound">Pound</option>
+      </select>
+      <button type="submit">Convert</button>
+    </form>
+    <% if (result !== null) { %>
+    <h2>Result: <%= result %></h2>
+    <% } %>
+    <a href="/">Back to Home</a>
+  </body>
+</html>

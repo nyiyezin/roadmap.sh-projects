@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Length Converter</title>
+  </head>
+  <body>
+    <h1>Length Converter</h1>
+    <form method="POST">
+      <input type="number" name="value" placeholder="Enter value" required />
+      <select name="from">
+        <option value="mm">Millimeter</option>
+        <option value="cm">Centimeter</option>
+        <option value="m">Meter</option>
+        <option value="km">Kilometer</option>
+        <option value="inch">Inch</option>
+        <option value="foot">Foot</option>
+        <option value="yard">Yard</option>
+        <option value="mile">Mile</option>
+      </select>
+      to
+      <select name="to">
+        <option value="mm">Millimeter</option>
+        <option value="cm">Centimeter</option>
+        <option value="m">Meter</option>
+        <option value="km">Kilometer</option>
+        <option value="inch">Inch</option>
+        <option value="foot">Foot</option>
+        <option value="yard">Yard</option>
+        <option value="mile">Mile</option>
+      </select>
+      <button type="submit">Convert</button>
+    </form>
+    <% if (result !== null) { %>
+    <h2>Result: <%= result %></h2>
+    <% } %>
+    <a href="/">Back to Home</a>
+  </body>
+</html>
